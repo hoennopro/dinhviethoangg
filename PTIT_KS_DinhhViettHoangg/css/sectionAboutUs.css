@@ -1,0 +1,56 @@
+
+.section-about-us .left-column {
+    float: right; 
+  }
+  
+  .section-about-us .right-column {
+    float: left; 
+  }
+  main{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.name{
+    color: white;
+    background-color: rgb(47, 47, 145);
+    display: inline-block;
+}
+.introduction-1{
+    color: white;
+    font-size: large;
+    
+}
+.introduction-1-2 {
+    color: white;
+    font-size: large;
+}
+.introduction-2{
+    color: rgb(0, 102, 255);
+    font-size: large;
+}
+.describe{
+    color: white;
+}
+
+r {
+    display: flex;
+    align-items: center;
+    height: 100%; 
+}
+
+.left-column,
+.right-column {
+    box-sizing: border-box; 
+    padding: 20px; 
+}
+
+.right-column {
+    overflow: hidden; 
+}
+.introduction-1,
+.introduction-2,
+.introduction-1-2 {
+    flex: 1;
+   
+    box-sizing: border-box;
+}

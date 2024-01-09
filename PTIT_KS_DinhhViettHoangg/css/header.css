@@ -1,0 +1,17 @@
+.header {
+    
+    height: 100px;
+    width: 100%;
+   
+    top: 0;
+    left: 0;
+   
+  }
+  .logo {
+    font-size: 36px;
+    font-weight: 400;
+    display: flex;
+    gap: 0;
+    color: white;
+    
+  }
